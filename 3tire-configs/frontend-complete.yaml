@@ -75,23 +75,23 @@ spec:
     app: frontend
 
 ---
-apiVersion: networking.k8s.io/v1
-kind: Ingress
-metadata:
-  name: frontend-ingress
-  namespace: 3tirewebapp-dev
-  annotations:
-    nginx.ingress.kubernetes.io/rewrite-target: /
-spec:
-  ingressClassName: nginx
-  rules:
-    - host: 3tirewebapp-dev.local
-      http:
-        paths:
-          - path: /
-            pathType: Prefix
-            backend:
-              service:
-                name: frontend
-                port:
-                  number: 3000
+#apiVersion: networking.k8s.io/v1
+#kind: Ingress
+#metadata:
+  #name: frontend-ingress
+  #namespace: 3tirewebapp-dev
+  #annotations:
+    #nginx.ingress.kubernetes.io/rewrite-target: /
+#spec:
+  #ingressClassName: nginx
+  #rules:
+   # - host: 3tirewebapp-dev.local
+      #http:
+        #paths:
+         # - path: /
+         #   pathType: Prefix
+         #   backend:
+         #     service:
+         #       name: frontend
+         #       port:
+          #        number: 3000
