@@ -9,6 +9,20 @@
 - **Networking:** **Azure CNI** networking model with **network policies** to manage traffic flow and enhance cluster security.  
 
 ---
+# 🚀 AKS GitOps Deployment Guide
+
+**Complete step-by-step guide to deploy AKS with GitOps using Terraform and Argo CD**
+
+This repository provides a **production-ready setup** for deploying applications to **Azure Kubernetes Service (AKS)** using **GitOps principles**. By leveraging **Argo CD** and **Terraform**, this guide ensures automated, consistent, and scalable deployments to your Kubernetes cluster.  
+
+## Key Features
+
+- **Infrastructure as Code:** Provision AKS clusters using **Terraform**.  
+- **GitOps Deployment:** Manage application deployments declaratively with **Argo CD**.  
+- **Scalable & Secure:** AKS with **auto-scaling** and **Azure CNI network policies**.  
+- **Authentication:** Integrates with **Azure AD** and supports local admin accounts.  
+- **Version Controlled Deployments:** All manifests, Helm charts, and Kustomize configs are stored in Git for **auditability** and **reproducibility**.  
+
 
 ## Public IP Configuration
 
